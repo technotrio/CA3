@@ -8,9 +8,11 @@ on:
     branches: [ "i200517" ]
   pull_request:
     branches: [ "i200517" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
+  
 
 jobs:
   build:
