@@ -1,0 +1,4 @@
+python==2.7.17
+pylint==2.13.9
+pytest==7.0.1
+flask==2.0.3
