@@ -2,6 +2,18 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
+@app.route('/mul/<int:variable1>/<int:variable2>')
+def multi(a,b):
+    return a*b
+
+def add(a,b):
+    return a+b
+
+@app.route('/add/<int:x>/<int:y>')
+def addition_route(x, y):
+    result = add(x, y)
+    return f"The result of {x} + {y} is {result}"
+
 # Function to perform subtraction
 def subtract(x, y):
     return x - y
@@ -24,4 +36,4 @@ def hi():
     return 'Welcome to Calculator!'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
