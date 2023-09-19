@@ -1,1 +1,3 @@
-Tasks
+Manal: Made Subtraction flask application of calculator
+Noorain: Made Multiplication flask application of calculator
+Meerub: Made Addition flask application of calculator
