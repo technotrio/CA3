@@ -6,8 +6,7 @@ name: Python application
 on:
   push:
     branches: [ "i200517" ]
-  pull_request:
-    branches: [ "i200517" ]
+
   workflow_dispatch:
 
 permissions:
